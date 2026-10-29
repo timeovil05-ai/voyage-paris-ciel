@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programme du voyage</title>
+  <meta name="description" content="Programme jour par jour du voyage à Paris de la Première Bac Pro CIEL, du 10 au 12 mai 2027. Simulation scolaire.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="simulation" role="note">
+    <div class="conteneur">
+      <strong>Simulation scolaire</strong>
+      <span>Aucune réservation n'a été faite. Les noms et contacts du site sont fictifs.</span>
+    </div>
+  </div>
+
+  <header class="entete">
+    <div class="conteneur">
+      <a class="marque" href="index.html">
+        <span class="pastille" aria-hidden="true">S</span>
+        <span>Voyage à Paris<small>Première Bac Pro CIEL</small></span>
+      </a>
+      <nav class="nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+            Accueil</a></li>
+          <li><a href="programme.html" aria-current="page">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><path d="M6 7v10M11 5h9M11 12h9M11 19h9"/><circle cx="6" cy="12" r="2"/></svg>
+            Programme</a></li>
+          <li><a href="lieux.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Lieux</a></li>
+          <li><a href="groupes.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg>
+            Groupes</a></li>
+          <li><a href="aide.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 16.5v.5"/></svg>
+            Aide</a></li>
+          <li><a href="jeux.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="11" rx="4"/><path d="M8 10.5v4M6 12.5h4"/><circle cx="15.5" cy="11.5" r="1"/><circle cx="17.5" cy="13.5" r="1"/></svg>
+            Jeux</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-titre">
+      <div class="conteneur">
+        <div class="plaque">
+          <span class="plaque-haut">Du 10 au 12 mai 2027</span>
+          <h1>Programme</h1>
+        </div>
+        <p>Les horaires sont prévus par l'équipe. Les temps de trajet viennent de Google Maps. Regarde le statut de chaque étape : certains horaires sont encore à confirmer.</p>
+      </div>
+    </div>
+
+    <nav class="choix-jour" aria-label="Choisir un jour">
+      <div class="conteneur">
+        <ul>
+          <li><a href="#j1"><span class="pastille j1" aria-hidden="true">J1</span> Lun. 10</a></li>
+          <li><a href="#j2"><span class="pastille j2" aria-hidden="true">J2</span> Mar. 11</a></li>
+          <li><a href="#j3"><span class="pastille j3" aria-hidden="true">J3</span> Mer. 12</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="conteneur" id="programme"></div>
+
+    <section class="section" aria-labelledby="titre-legende">
+      <div class="conteneur">
+        <h2 id="titre-legende">Comment lire les statuts</h2>
+        <ul class="legende" id="legende"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur">
+      <div>
+        <span class="etiquette-gab">Saint Gab'</span>
+        <p><strong>Lycée Saint-Gabriel Saint-Michel</strong>, Saint-Laurent-sur-Sèvre. Projet de la matière « Projet », Première Bac Pro CIEL.</p>
+      </div>
+      <p>Équipe : Sixte, Timéo et Tom. Simulation scolaire : aucune réservation ferme, données de groupes fictives. Mise à jour le 29 octobre 2026.<br><a class="lien-orga" href="organisateurs.html">Espace organisateurs</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/donnees.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
